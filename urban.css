@@ -1,0 +1,306 @@
+/* Stephanie Roussy, STE2322663, CIS233DA */
+
+/* All Pages */
+
+Body { color: #020202;
+        font-family: Arial, Verdana, sans-serif;
+        background-image: url(background.jpg); 
+        background-repeat: no-repeat;
+        background-size: 100% 100%;}
+        
+#wrapper { margin-left: auto;
+        margin-right: auto;
+        width: 80%; 
+        background-color: #fcf8c4;
+        min-width: 960px; 
+        max-width: 2048px; 
+        box-shadow: 5px 5px 5px #020202 }
+        
+/* Header */
+        
+#heading {background-image: url(heading.jpg);
+          background-repeat: no-repeat;
+            height: 400px;
+            background-size: 100% 100%;
+            padding-bottom: 2em;}
+        
+/* Navigational Menu */
+        
+nav ul {list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;}
+            
+nav li {
+        display: inline;}
+            
+nav li a {
+        display: inline-block;
+        margin: 1% 13px 1% 13px;
+        color: black;
+        font-size: 2em;
+        font-weight: bold;
+        text-decoration: none;}
+            
+nav a:visited { color: #000033; } 
+            
+nav a:hover { color: purple; }
+            
+Nav ul { list-style-type: none; 
+        padding-left: 0; 
+        margin: 0;} 
+        
+/* Fonts */
+        
+h1 { text-align: center; 
+        font-family: chalkduster; 
+        font-size: 4em;
+        margin-left: 1em;
+        margin-right: 1em;;} 
+        
+h2 {font-family: Apple Chancery, cursive; 
+                font-size: 2.5em;
+                margin-left: .5em;}
+
+/* Spacing */
+
+.para {padding-left: 40px; 
+        padding-right: 40px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        display: block;
+        line-height: 2em;}
+        
+/* Footer */
+        
+Footer { font-size: .70em; 
+        font-style: italic; 
+        text-align: center; 
+        padding: 1em;}
+
+
+
+/* Video */
+
+video {margin-left: 25em;
+        border: 1px solid #070707;} 
+
+/*Contact Us Page*/
+
+
+
+/*Park Features*/
+               
+table { margin: auto;
+        border: 1px solid #070707;
+        width: 90%;
+        border-collapse: collapse;} 
+                        
+td, th { border: 1px solid #0d0d0e;
+        padding: 5px; } 
+                        
+td {text-align: center;} 
+                        
+tr:nth-of-type(odd) { background-color: #f0894d; } 
+
+tr:nth-of-type(even) { background-color: rgb(208, 131, 243); } 
+
+#gallery ul{text-decoration: none;
+        margin-left: 10em;} 
+        
+#gallery li {display: inline-block;
+                width: 225px;
+                padding-bottom: 10px;
+                margin: 10px; 
+                background-color: #EAEAEA; 
+                text-align: center; 
+                font-style: italic; 
+                font-family: Georgia, serif;} 
+
+.center {text-align: center;}
+
+/* Contact Us */
+
+label { float: left;
+        display: block;
+        width: 8em; 
+        padding-right: 1em;
+        padding-left: 9em; }  
+                        
+input {display: block;
+        margin-bottom: 1em;
+        margin-left: 9em;
+        height: .5cm;} 
+
+textarea {display: block;
+        margin-bottom: 1em;
+        margin-left: 9em;
+        height: 3cm;
+        width: 10cm;}
+        
+#mySubmit {padding: 20px 16px;
+        padding-bottom: 1mm;
+        padding-top: 1mm;
+        height: 1cm;
+        text-align: center;
+        font-size: 16px;
+        margin-left: 18em; }
+
+dt { color: #000033; 
+        font-weight: bold;
+        margin-left: 2em;
+        line-height: 2em; } 
+
+.contact {padding-left: 100px; 
+        padding-right: 40px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        display: block;
+        line-height: 2em;}
+        
+.sub {margin-left: 3em;}
+        
+.radio {margin-left: 3em;
+        float: left;
+        margin-right: .5em;}
+
+/* Pro Shop */
+
+.leftfloat {float:left;
+        margin-left: 15em;
+        margin-bottom: 3em;
+        margin-right: 3em;
+        margin-top: 2em;} 
+
+.clear {clear: left;} 
+
+.right {margin-right: 10em;
+        line-height: 2em;}
+
+/* Design */
+
+.wireframe {margin-left: 7em;
+        border: 1px solid #070707;}
+
+
+.hier {line-height: 2em;
+        text-align: center;
+        margin: 3em;}
+
+.list {line-height: 2em;}
+
+@media only screen and (max-width: 1024px) {
+    body { background-image: none;
+        margin: 0;
+        padding: 0; }
+    
+    #wrapper { width: auto;
+            min-width: 0;
+            margin: 0;
+            box-shadow: none; }
+
+    h1 {margin: 0;
+        font-size: 2em;}
+
+    nav {float: none;
+        width: auto; 
+        padding: 0.5em; }
+
+    nav li {display: inline-block;
+        font-size: 70%; }
+
+    nav a {padding: .2em;}
+
+    main {padding: 1em;
+          margin-left: 0;
+          font-size: 90%; }
+
+    footer {margin-bottom: 1em; }
+
+    video {border: 1px solid #070707;
+        display: block;
+        margin: auto;
+        margin-bottom: 2em;}
+
+table { margin-bottom: 2em;}
+
+textarea {width: 5cm;}
+
+#mySubmit {margin-left:2em; }
+
+.leftfloat {display: block;
+        margin:auto;
+        margin-left: 2em;
+        margin-right: .5em;}
+
+.right {text-align: center;}
+
+.wireframe {height: 70%;
+        width:70%;
+        display: block;
+        margin: auto;}}
+
+@media only all and (max-width: 767px) {
+    
+    h1 {height: 100%;
+        font-size: 2em;}
+
+    nav { padding: 0; }
+
+    nav li {display: block;
+            margin: 0;
+            padding: 0; }
+
+    nav ul {margin: 0;
+            padding: 0; }
+
+    nav a {padding: 0.2em;
+           display: block;
+           font-size: 1.3em;
+           border-bottom: 1px;
+           border-color: #330000;}
+
+    main {padding-top: 0.1em;
+          padding-right: 0.6em;
+          padding-bottom: 0.1em;
+          padding-left: 0.4em;
+          margin-left: 0;
+          font-size: 90%; }
+
+    footer {padding: 0; }
+
+    video {border: 1px solid #070707;
+        display: block;
+        margin: auto;
+        margin-bottom: 2em;}
+        
+    #gallery ul{display: block;
+                margin: auto;}
+
+    #gallery li {display: block;
+                margin: auto;
+                margin-bottom: 2em;}
+
+    table { margin-bottom: 2em;}
+
+    textarea {width: 5cm;}
+
+    #mySubmit {margin-left:2em; }
+
+    .leftfloat {display: block;
+        margin:auto;
+        margin-left: 2em;
+        margin-right: .5em;}
+
+        .right {text-align: center;}
+
+        .wireframe {height: 70%;
+                width:70%;
+                display: block;
+                margin: auto;}
+
+    #mobile { display: inline; } 
+    
+    #desktop { display: none; }   } 
+
+  
